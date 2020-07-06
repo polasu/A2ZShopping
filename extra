@@ -1,0 +1,77 @@
+This is a online shopping cart application 
+===========================================
+This was built with React JS frontend with JSON objects. This JSON array object currently added within the project;
+That can be replaced with API's for realtime application.
+
+The apis can be build with ASP.NET Core APIs
+
+This fontend applicatoin doenst have the API instead used JSON array defined in the cartReducer.js files
+
+That also can be seperated with db.JSON file but; I included it in that cartReducer.js
+
+
+get the styles from this url 
+https://materializecss.com/getting-started.html
+
+then install the follwoing at command prompt
+
+>  npm install redux react-redux
+
+Created folders, files structure 
+--------------------------------
+
+public
+    -- index.html
+
+src
+    -- components
+        - actions
+            - action-types
+                - cart-actions.js
+        
+        - cartActions.js
+        
+        - Rreducers
+            - cartReducer.js
+        
+    - Cart.js
+    - Home.js
+    - navbar.js
+    - Recipe.js
+    - Search.js
+
+    -- images
+        - item1.jpg
+        - item2.jpg
+        - item3.jpg
+        - item4.jpg
+        - item5.jpg
+        - item6.jpg
+    
+    -- index.js
+    -- app.js
+========================================================================
+To Run the app you need to do the follwoing things
+========================================================================
+
+step 1 : 
+    You need to copy the code to a perticular folder of your machine.
+
+setp 2 :
+    go in to the shopping-cart folder and shift + right click will open a context monu choose the command line to this folder
+    that opens the command line to this folder
+
+setp 3: 
+    Open the terminal
+
+setp 4:
+    Need to run the follwoing commands as follows 
+
+    the follwoing command will install the necessory node_modules to the project
+    > npm i
+
+    the follwoing command will start the project and run the project that will open in an default browser
+    > yarn start
+
+
+    ** You can play with the project after launching on the project **
